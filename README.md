@@ -1,6 +1,5 @@
 # Wattouat Agent
 
-
 ## Table of Contents
 
 - [Stable version](#stable-version)
@@ -11,41 +10,44 @@
 
 ## Stable version
 
-Supported version :
+Supported version:
 
 - ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge=appveyor&logo=debian&logoColor=white)
     - [X] Bullseye 
-        - Status : Stable
+        - Status: Stable
     - [X] Buster
-        - Status : Stable
+        - Status: Stable
     - [ ] Strech
-        - Status : Not tested
+        - Status: Not tested
 
 - ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge=appveyor&logo=ubuntu&logoColor=white)
     - [X] 21.04 LTS
-        - Status : Stable
+        - Status: Stable
     - [X] 20.04 LTS
-        - Status : Stable
+        - Status: Stable
     - [X] 18.04 LTS
-        - Status : Stable
+        - Status: Stable
 
 ## Prerequisites
 
 - Internet connection
 - Git
 - Root
+- Installation Wattouat Server
 
 ## Installation 
 
 ### Clone the repositorie
 
 ``` shell 
-git clone https://github.com/Wattouat-IT/Wattouat-Server.git
+git clone https://github.com/Wattouat-IT/Wattouat-Agent.git
 ```
+
+And go inside the folder Wattouat-Agent
 
 ### Edit the configuration file
 
-Edit the file ``` wattouat.conf```
+Edit the file ``` wattouat_agent.conf```
 
  - ip : your local ip who run the database
  - service : under "# Service scanned". Place the services for which you want to calculate the cost, separate with a comma. Example: ```<service1>,<service2>,<service3>,<serviceN>```
